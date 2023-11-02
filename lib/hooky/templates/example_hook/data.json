@@ -1,0 +1,7 @@
+{
+  "payment_id": "chg_abc123",
+  "amount": 100,
+  "currency": "USD",
+  "status": "pending",
+  "created_at": "2019-01-01T00:00:00Z"
+}
