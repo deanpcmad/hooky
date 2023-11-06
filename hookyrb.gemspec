@@ -3,7 +3,7 @@
 require_relative "lib/hooky/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "hooky"
+  spec.name = "hookyrb"
   spec.version = Hooky::VERSION
   spec.authors = ["Dean Perry"]
   spec.email = ["dean@deanpcmad.com"]
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.files = Dir["lib/**/*", "MIT-LICENSE", "README.md"]
-  spec.executables = %w[ hooky ]
+  spec.executables = %w[ hookyrb ]
 
   spec.add_dependency "thor", '~> 1.3'
   spec.add_dependency "httparty", '~> 0.21.0'

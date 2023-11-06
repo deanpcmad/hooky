@@ -33,23 +33,20 @@ The `data.json` file will be the request body that is sent. For example:
 
 ## Installation
 
-Install the gem by running `gem install hooky`.
+Install the gem by running `gem install hookyrb`.
 
 ## Usage
 
 ```bash
 # To add the hooky gem to your Gemfile, create a .hooky directory and create an example webhook, run:
-hooky init
+hookyrb init
 
 # To test a webhook, run:
-hooky hook <webhook_name>
+hookyrb hook <webhook_name>
 ```
 
-To add the gem to your Rails app and create an example webhook, run `bundle exec hooky init`. This will create a `.hooky`
-directory and
+To add the gem to your Rails app and create an example webhook, run `bundle exec hooky init`. This will create a `.hooky` directory.
 
-
-Then to test this webhook, run `rails hooky order.created` and it will send a request to the URL specified in the `data.json` file.
 
 ## Contributing
 
