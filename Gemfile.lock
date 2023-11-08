@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hooky (0.1.0)
+    hooky (2.0.0)
       httparty (~> 0.21.0)
       thor (~> 1.3)
 
